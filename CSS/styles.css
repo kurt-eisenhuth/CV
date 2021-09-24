@@ -1,16 +1,17 @@
-<style>
+/*******************************TAG SELECTORS*****************************/
+
   body {
-    background-color: #FAF1E6;
+    background-color: #ECE7B4;
   }
   h1 {
-    color: #66bfbf;
+    color: #406343;
   }
   h2 {
-    color: #66bfbf;
+    color: #406343;
   }
   hr {
     height: 0px;
-    background-color: #FAF1E6;
+    background-color: #ECE7B4;
     width: 10%;
     border-top: 5px dotted #064420;
     border-left: 0px;
@@ -21,7 +22,24 @@
   img {
     border-radius: 25%;
     height: 200px;
-    border: 5px solid #064420;
+    border: 5px solid #406343;
     box-shadow: 5px 5px gray;
   }
-</style>
+
+
+
+/**********************************CLASS SELECTORS***************************/
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.tableData {
+  font-size: 30px;
+}
+
+.hobbyImage:hover {
+  background-color: green;
+}
